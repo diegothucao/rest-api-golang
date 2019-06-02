@@ -1,9 +1,17 @@
 package main
 
 import (
-	"fmt"
+	"rest-api-golang/routes"
+	"os"
 )
 
+
 func main() {
-	fmt.Println("Hello, world.")
+	var appPort = os.Getenv("appPort")
+
+	if appPort == "" {
+		appPort = "1111"
+	}
+
+	routes.setupServer(appPort)
 }
