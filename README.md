@@ -71,5 +71,5 @@ Thanks
 references
 1. https://www.tutorialspoint.com/go/
 2. https://golang.org
-3. https://redux-saga.js.org
+3. https://github.com/sohamkamani/jwt-go-example
 4. https://github.com/adigunhammedolalekan/go-contacts
