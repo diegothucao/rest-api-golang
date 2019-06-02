@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	"rest-api-golang/routes"
+	"rest-api-golang/src/routes"
 )
 
 func main() {
