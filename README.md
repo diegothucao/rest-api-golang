@@ -46,3 +46,30 @@ var Login = func(w http.ResponseWriter, r *http.Request) {
 	u.Respond(w, resp)
 }
 ```
+
+
+Then you can request 
+```
+Post http://localhost:1111/api/login
+
+{
+"email": "cao.trung.thu@gmail.com",
+"password": "tjhsdkafdksf"
+}
+
+Get http://localhost:1111/api/getUser
+
+Token:
+"Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJjYW8udHJ1bmcudGh1QGdtYWlsLmNvbSJ9.7N7vWh73ELZmqG0AxRtuzGVlB8JaAVSncmCQowP6cWQ`
+
+```
+
+If you see any issue, please do not hesitate to create an issue here or can contact me via email cao.trung.thu@gmail.com or [Linkedin](https://www.linkedin.com/in/diegothucao/)
+
+Thanks
+
+references
+1. https://www.tutorialspoint.com/go/
+2. https://golang.org
+3. https://redux-saga.js.org
+4. https://github.com/adigunhammedolalekan/go-contacts
