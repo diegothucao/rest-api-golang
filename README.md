@@ -1,4 +1,4 @@
-# Building simple restful api with Go language 
+# Building simple restful apis with Go language 
 This is an essential example to build server with restful api using Golang
 
 Step to run
