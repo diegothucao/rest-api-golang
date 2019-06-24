@@ -1,5 +1,5 @@
 # Building simple restful apis with Go language 
-This is an essential example to build server with restful api using Golang
+This is an essential example to build server with restful api using Golang.
 
 Step to run
 1. Clone the [repo](https://github.com/diegothucao/rest-api-golang)
